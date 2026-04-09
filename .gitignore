@@ -1,0 +1,105 @@
+# === Node.js / NPM ===
+node_modules/
+dist/
+dist-ssr/
+tmp/
+*.local
+jspm_packages/
+web_modules/
+
+# === Environment Variables ===
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# === Logs ===
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# === Editor & System ===
+.vscode/
+.vscode-test/
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# === OS / Misc ===
+*.tmp
+*.bak
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage / test / build directories
+lib-cov
+coverage
+*.lcov
+.nyc_output
+.grunt
+bower_components
+.lock-wscript
+build/Release
+.cache
+.parcel-cache
+.next
+.nuxt
+.vuepress/dist
+.temp
+.svelte-kit/
+**/.vitepress/dist
+**/.vitepress/cache
+.docusaurus
+.serverless/
+.fusebox/
+.dynamodb/
+.firebase/
+
+# Yarn / npm / package manager
+.yarn/*
+.pnp.*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.yarn-integrity
+.npm
+
+# Optional caches
+.eslintcache
+.stylelintcache
+.node_repl_history
+*.tgz
+
+# Vite logs files
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# === Old Frontend Backup ===
+frontend_old/
+frontend_old.zip
+
+# === Backend Secrets (VERY IMPORTANT) ===
+backend/serviceAccountKey.json
+backend/test_admin.js
+
+# Backend env
+backend/.env
+frontend/.env
+backend/uploads/ 
