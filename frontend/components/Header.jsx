@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { getUser, logout } from "../utils/auth";
+//test test test
 
 export default function Header() {
   const [user, setUser] = useState(null);
